@@ -14,7 +14,7 @@ stages:
   jobs:
   - job: BuildJob
     pool:
-      name: 'Default'   # use your self-hosted agent pool
+      name: 'BootcampPool'   # use your self-hosted agent pool
     steps:
     - task: NodeTool@0
       inputs:
